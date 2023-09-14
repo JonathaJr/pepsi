@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'pepsi';
+    src: url('../fontes/pepsi.ttf') format('TrueType');
+    
+}
+@import url('https://promo.pepsi.com.br/assets/images/background-home.png');
+
+:root {
+    --cor0: #0D0D0D;
+    --cor1: #fc203a;
+    --cor2: #fc203a71;
+
+    --fonte-destaque: 'pepsi', cursive;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+    height: 100%;
+    overflow-y:  hidden;
+    overflow-x: hidden;
+    background: url(/assets/images/background-home.png);
+    background-image: linear-gradient(139deg, #0D0D0D,#0d0d0db0, #04586a);
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.center {
+    margin: 0 auto;
+    padding: 0 2%;
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+}
+
+
+.logo {
+    margin: auto;
+    width: 50%;
+}
+
+.menu {
+    margin: auto;
+    padding-top: 25px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: var(--cor1);
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+
+.secao {
+    width: 100%;
+    background-color: var(--cor0);
+    position: absolute;
+    bottom: -325px;
+    right: -333px;
+    width: 863px;
+    height: 776px;
+    border-radius: 50%;
+    
+}
+
+.redes-sociais {
+    position: absolute; 
+    right: 0;
+    top: 250px;
+   
+}
+
+.redes-sociais img {
+    display: block;
+    width: 50px;
+    margin: 25px;
+    
+    border-radius: 50%; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
+
+.redes-sociais img:hover {
+    border: 2px solid var(--cor1);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 5px var(--cor2);
+    transition: transform .3s, border .5s;
+}
+
+.titulo {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.titulo-sobre h1{
+    color: white;
+    font-size: 50px;
+}
+
+button {
+    border: 0;
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid var(--cor1);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 5px var(--cor2);
+    transition: transform .3s, border .5s;
+}
