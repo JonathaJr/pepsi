@@ -79,6 +79,7 @@ header {
     width: 100%;
     background-color: var(--cor0);
     position: absolute;
+    max-width: 800px;
     bottom: -325px;
     right: -333px;
     width: 863px;
