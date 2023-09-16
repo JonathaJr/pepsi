@@ -31,8 +31,7 @@ html,body {
     height: 100%;
     overflow-y:  hidden;
     overflow-x: hidden;
-    background: url(/assets/images/background-home.png);
-    background-image: linear-gradient(139deg, #0D0D0D,#0d0d0db0, #04586a);
+    background-image: url('../imagens/background-home.png');
 }
 
 header {
