@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 @font-face {
     font-family: 'pepsi';
@@ -28,6 +28,7 @@
 }
 
 html,body {
+    width: 100vw;
     height: 100vh;
     overflow-y:  hidden;
     overflow-x: hidden;
@@ -82,17 +83,19 @@ header {
 }
 
 .secao {
+    position: absolute;
+    left: 61%;
+    top: 33%;
+
     background-color: var(--cor0);
     background-size: cover;
-    position: absolute;
     
     width: 863px;
     height: 776px;
     bottom: -325px;
     right: -333px;
     border-radius: 54%;
-    left: 61%;
-    top: 33%;
+    
 
 
     
