@@ -83,20 +83,13 @@ header {
 
 .secao {
     background-color: var(--cor0);
-
+    background-size: cover;
     position: absolute;
-    height: 200px;
-    width: 400px;
-    border-radius: 50%;
-
-    left: 50%;
-    top: 50%;
-
-    width: 35%;
-    background-color: var(--cor0);
-    position: absolute;
-    height: 390px;
-    width: 359px;
+    
+    width: 863px;
+    height: 776px;
+    bottom: -325px;
+    right: -333px;
     border-radius: 54%;
     left: 61%;
     top: 33%;
@@ -165,6 +158,21 @@ button {
 }
 
 button:hover {
+    border: 2px solid var(--cor1);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 5px var(--cor2);
+    transition: transform .3s, border .5s;
+}
+
+.rodape {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+footer a:hover {
+    border-radius: 5px;
+    color: var(--cor1);
     border: 2px solid var(--cor1);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 5px var(--cor2);
