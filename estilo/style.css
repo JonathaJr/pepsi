@@ -41,6 +41,7 @@ header {
 }
 
 .center {
+    
     margin: 0 auto;
     padding: 0 2%;
 
@@ -51,8 +52,20 @@ header {
 
 
 .logo {
+    
     margin: auto;
     width: 50%;
+}
+
+.material-symbols-outlined {
+    width: 37px;
+    padding: 21px;
+    color: #0F0E91;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: var(--cor1);
 }
 
 .menu {
